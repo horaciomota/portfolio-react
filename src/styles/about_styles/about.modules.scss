@@ -2,7 +2,7 @@
 
 .About-section {
     height: auto;
-    background: #000;
+    background: black;
 
     .border-divider {
         border: 1px solid gray;
@@ -19,7 +19,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 4rem;
-
+    color: white;
 
 }
 
@@ -29,6 +29,7 @@
     width: 40%;
     gap: 2rem;
     padding-top: 4rem;
+    color: white;
 }
     h2 {
         font-size: $h2;
@@ -53,13 +54,17 @@
     }
 
     .info-card-items {
-        width: 60%;
+        width: 100%;
         list-style: none;
         color: white;
         font-size: $h2;
         font-weight: $h3-weight-hero;
         margin-bottom: 10px;
     }
+
+    .info-card-items li {
+        color: white; /* Altere a cor como desejar */
+      }
     
     .custom-title {
         font-size: $h4;
