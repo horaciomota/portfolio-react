@@ -1,14 +1,13 @@
 @use "../global/" as *;
 
 .Footer-section {
-    height: auto;
-    background: #000;
+  height: auto;
+  background: black;
 
 
-.container {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.containesr {
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
