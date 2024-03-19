@@ -15,8 +15,8 @@ export default function Projects() {
       title: "Electric Vehicles",
       tecstack: "NextJS | Sass",
       description: "A simplified yet beautiful shopping experience with an innovative approach to e-commerce in the digital space.",
-      thumbSrc: project1thumb.src,
-      gifSrc: project1.src
+      thumbSrc: project1thumb,
+      gifSrc: project1
     },
 
     {
@@ -24,8 +24,8 @@ export default function Projects() {
         title: "Clash Royale",
         tecstack: "NextJS | Sass | Restfull Api",
         description: "A website educating users on how to play the game as well as showing off all the amazing artwork, arenas and the characters.",
-        thumbSrc: project2thumb.src,
-        gifSrc: project2.src
+        thumbSrc: project2thumb,
+        gifSrc: project2
       },
 
       {
@@ -33,8 +33,8 @@ export default function Projects() {
         title: "Slacker Radio",
         tecstack: "NextJS | Sass | Firebase | Restfull Api",
         description: "A new app experience with a high emphasis on user interactivity and visual content in a functional yet innovative design.",
-        thumbSrc: project3thumb.src,
-        gifSrc: project3.src
+        thumbSrc: project3thumb,
+        gifSrc: project3
       },
   ];
 
