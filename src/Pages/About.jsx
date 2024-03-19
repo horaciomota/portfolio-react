@@ -1,6 +1,6 @@
 import React from 'react';
 import InfoCard from '../components/InfoCard';
-import GetInTouch from '../components/GetInTouch';
+// import GetInTouch from '../components/GetInTouch';
 import "../styles/about_styles/about.modules.scss";
 
 function About() {
@@ -27,7 +27,7 @@ function About() {
         </div>
         <div className='border-divider'></div>
 
-        <GetInTouch/>
+        {/* <GetInTouch/> */}
 
       </div> 
     </section>
