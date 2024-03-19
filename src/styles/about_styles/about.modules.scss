@@ -1,0 +1,89 @@
+@use "../global/" as *;
+
+.About-section {
+    height: auto;
+    background: #000;
+
+    .border-divider {
+        border: 1px solid gray;
+    }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.list-comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+
+
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 2rem;
+    padding-top: 4rem;
+}
+    h2 {
+        font-size: $h2;
+        color: white; 
+        padding-bottom: 4rem;
+    }
+
+    h3 {
+        color: white;
+        font-size: $h3;
+        font-weight: $p-weight-hero;
+    }
+
+    .exp-list {
+        color: white;
+        font-weight: $h3-weight-hero;
+    }
+
+    p {
+        color: gray;
+        font-size: $p;
+    }
+
+    .info-card-items {
+        width: 60%;
+        list-style: none;
+        color: white;
+        font-size: $h2;
+        font-weight: $h3-weight-hero;
+        margin-bottom: 10px;
+    }
+    
+    .custom-title {
+        font-size: $h4;
+        font-weight: 400;
+        padding-bottom: 4rem;
+      }
+      
+
+    @media (max-width: 1000px) {
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+        }
+
+        .info-card {
+            width: auto;
+        } 
+
+        .list-comp {
+            flex-direction: column;
+        }
+
+    }
+
+}

@@ -1,0 +1,67 @@
+@use "../global/" as *;
+
+.Footer-section {
+    height: auto;
+    background: #000;
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2 {
+    font-size: $h2;
+    color: white; 
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+p {
+    color: white;
+    font-size: $p;
+    padding-bottom: 4rem;
+}
+
+span {
+    color: gray;
+    font-size: $p;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+    .list {
+        ul {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          flex-wrap: wrap;
+      
+          li {
+            font-size: 18px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+          }
+    
+          a {
+            color: gray;
+            text-decoration: none;
+          }
+    
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+
+      @media (max-width: 1000px) {
+        
+        h2, p, span {
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+        }
+
+    }
+}

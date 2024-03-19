@@ -1,0 +1,44 @@
+@use "../global/" as *;
+
+.button-container {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  
+  .github {
+    background-color: black;
+  }
+  
+  .live-demo {
+    background-color: #6c757d;
+  }
+  
+  @media (max-width: 1000px) {
+    .button-container {
+      flex-direction: row; 
+      gap: 2rem;
+    }
+  
+    .button {
+      width: 100%;
+    }
+  }
+  
+  
+  
+  

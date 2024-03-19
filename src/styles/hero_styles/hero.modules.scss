@@ -1,0 +1,107 @@
+@use "../global/" as *;
+
+.Hero-section {
+    background: white;
+    font-family: $text-font;
+
+h1 {
+    font-size: $h1-hero;
+    font-weight: $h1-weight-hero;
+ }
+
+ h2 {
+    font-size: $h2-hero;
+    font-weight: $h2-weight-hero;
+ }    
+
+ p {
+    font-size: $p-hero;
+    font-weight: $p-weight-hero;
+ }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80vh;
+    border-bottom: 10px solid black;
+} 
+
+.Hero-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.Hero-position {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Hero-sumary-links {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.list {
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+  
+      li {
+        font-size: 18px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+      }
+
+      a {
+        color: gray;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+
+    .container {
+        height:  auto;
+    }
+
+    .Hero-information {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .Hero-position {
+        width: auto;
+    }
+
+    .Hero-sumary-links {
+        width: auto;
+    }
+    
+    h1 {
+        font-size: $h1-hero-mobile;
+    }
+
+    h2 {
+        font-size: $h2-hero-mobile;
+    }
+
+    p {
+        font-size: $p-hero-mobile;
+    }
+
+  }
+
+}
