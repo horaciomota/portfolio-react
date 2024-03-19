@@ -1,7 +1,7 @@
 import React from 'react';
 import InfoCard from '../components/InfoCard';
-import "../styles/about_styles/about.modules.scss";
 import GetInTouch from '@/components/GetInTouch';
+import "../styles/about_styles/about.modules.scss";
 
 function About() {
   return (
