@@ -14,7 +14,6 @@ html {
 }
 
 body {
-  justify-content: center;
   background-color: $bg-white;
   font-family: $titles-font;
   position: relative;
@@ -22,9 +21,13 @@ body {
 }
 
 .container {
-  max-width: 133rem !important;
+  max-width: 200rem !important;
   margin: 0 auto !important;
-  padding: 0 2.5rem !important;
+  padding: 0 12.5rem !important;
+
+  @media (max-width:1000px) {
+    padding: 0 2.5rem !important;
+  }
 }
 
 // scroll bar ------
