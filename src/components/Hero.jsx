@@ -1,4 +1,4 @@
-// import "../styles/hero_styles/hero.modules.scss"
+import "../styles/hero_styles/hero.modules.scss"
 
 export default function Hero() {
     return (
