@@ -19,9 +19,9 @@ export default function Hero() {
             <p>7 months of professional experience and recently graduated in Computer Science, I am constantly running personal projects and contributing to the open-source community. When Im not coding, you can find me playing poker.</p>
             <div className="list">
               <ul>
-                <li><a href="https://www.linkedin.com/in/horaciomota/">LinkedIn</a></li>
-                <li><a href="https://github.com/horaciomota">Github</a></li>
-                <li><a href="#">Check my Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/horaciomota/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                <li><a href="https://github.com/horaciomota" target="_blank" rel="noreferrer">Github</a></li>
+                <li><a href="#" target="_blank">Check my Resume</a></li>
               </ul>
             </div>
           </div>
