@@ -8,18 +8,18 @@ function About() {
       <div className="container">
         <div className="list-comp">
           <InfoCard
-            title="Experience"
-            subtitle="I’m a Swedish, Lead Designer & Design Director currently based in Brisbane, Australia. I love what I do and have done so for the last 20 years working on various projects and brands around the world. As a director, I draw upon my experience in design, concept development and team management to bring a comprehensive and creative process to all projects."
+            title="Technologies"
+            subtitle="I utilize a diverse range of technologies in my work, including JavaScript, React, Next.js, Swift, Node.js, Firebase, MongoDB, HTML, CSS, Tailwind CSS, Git, and GitHub."
             isAboutMe
           />
           <InfoCard
             title="Quick summary of my career:"
             titleClassName="custom-title"
             items={[
-              '20 years design experience',
-              '6 years at Disney & Star Wars',
-              '12 years at digital agencies',
-              '9 years of directing',
+              '7 months internship @Adentis',
+              '2 apps launched at Apple Store',
+              '4 open source projects contributed',
+              '14 clients on UpWork',
             ]}
           />
         </div>

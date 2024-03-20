@@ -11,13 +11,13 @@
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     text-align: left;
 }
 
 .list-comp {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-bottom: 4rem;
     color: white;
 
@@ -26,13 +26,13 @@
 .info-card {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 100%;
     gap: 2rem;
     padding-top: 4rem;
     color: white;
 }
     h2 {
-        font-size: $h2;
+        font-size: $page;
         color: white; 
         padding-bottom: 4rem;
     }
@@ -51,6 +51,7 @@
     p {
         color: gray;
         font-size: $p;
+        width: 70%;
     }
 
     .info-card-items {
@@ -64,6 +65,7 @@
 
     .info-card-items li {
         color: white; /* Altere a cor como desejar */
+        font-size: $h2;
       }
     
     .custom-title {
@@ -88,6 +90,14 @@
         .list-comp {
             flex-direction: column;
         }
+
+        p {
+            width: 90%;
+        }
+
+        .info-card-items li {
+            font-size: $h3;
+          }
 
     }
 
