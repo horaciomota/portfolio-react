@@ -19,8 +19,8 @@ export default function ProjectCard({
             <h4>{description}</h4>
 
             <div className="button-container">
-              <a href="#" target="_blank" rel="noopener noreferrer"><Button text="Github" className="github space-between" /></a>
-              <a href="#" target="_blank" rel="noopener noreferrer"><Button text="Live demo" className="Live-demo" /></a>
+              <a href="https://github.com/horaciomota/Electric-Vehicles" target="_blank" rel="noopener noreferrer"><Button text="Github" className="github space-between" /></a>
+              <a href="https://electric-vehicles.vercel.app" target="_blank" rel="noopener noreferrer"><Button text="Live demo" className="Live-demo" /></a>
             </div>
           </div>
 

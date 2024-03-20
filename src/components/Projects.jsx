@@ -13,16 +13,16 @@ import project3thumb from '../images/project3thumb.png';
 export default function Projects() {
   const projects = [
     {
-      status: 'Personal Project',
+      status: 'Frontend',
       title: 'Electric Vehicles',
       tecstack: 'NextJS | Sass',
-      description: 'A simplified yet beautiful shopping experience with an innovative approach to e-commerce in the digital space.',
+      description: 'Web application developed aimed at providing a convenient and eco-friendly solution for renting electric vehicles in Bermuda. The platform offers a fast way to know more about eletric cars.',
       thumbSrc: project1thumb,
       gifSrc: project1,
     },
 
     {
-      status: 'Personal Project',
+      status: 'Fullstack',
       title: 'Clash Royale',
       tecstack: 'NextJS | Sass | Restfull Api',
       description: 'A website educating users on how to play the game as well as showing off all the amazing artwork, arenas and the characters.',
@@ -31,7 +31,7 @@ export default function Projects() {
     },
 
     {
-      status: 'Personal Project',
+      status: 'Mobile',
       title: 'Slacker Radio',
       tecstack: 'NextJS | Sass | Firebase | Restfull Api',
       description: 'A new app experience with a high emphasis on user interactivity and visual content in a functional yet innovative design.',
