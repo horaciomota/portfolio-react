@@ -6,7 +6,7 @@ import '../styles/projects_styles/projects.modules.scss';
 import Button from './Button';
 
 export default function ProjectCard({
-  tecstack, status, title, description, thumbSrc, gifSrc,
+  tecstack, status, title, description, thumbSrc, gifSrc, githubLink, liveDemoLink,
 }) {
   return (
     <section className="project-section">
@@ -19,8 +19,9 @@ export default function ProjectCard({
             <h4>{description}</h4>
 
             <div className="button-container">
-              <a href="https://github.com/horaciomota/Electric-Vehicles" target="_blank" rel="noopener noreferrer"><Button text="Github" className="github space-between" /></a>
-              <a href="https://electric-vehicles.vercel.app" target="_blank" rel="noopener noreferrer"><Button text="Live demo" className="Live-demo" /></a>
+              <a href={githubLink} target="_blank" rel="noopener noreferrer"><Button text="Github" className="github space-between" /></a>
+              <a href={liveDemoLink} target="_blank" rel="noopener noreferrer"><Button text="Live demo" className="Live-demo" /></a>
+
             </div>
           </div>
 

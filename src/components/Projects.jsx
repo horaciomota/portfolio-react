@@ -19,6 +19,8 @@ export default function Projects() {
       description: 'Web application developed aimed at providing a convenient and eco-friendly solution for renting electric vehicles in Bermuda. The platform offers a fast way to know more about eletric cars.',
       thumbSrc: project1thumb,
       gifSrc: project1,
+      githubLink: 'https://github.com/horaciomota/Electric-Vehicles',
+      liveDemoLink: 'https://electric-vehicles.vercel.app',
     },
 
     {
@@ -51,6 +53,8 @@ export default function Projects() {
           description={project.description}
           thumbSrc={project.thumbSrc}
           gifSrc={project.gifSrc}
+          githubLink={project.githubLink}
+          liveDemoLink={project.liveDemoLink}
         />
       ))}
     </>
