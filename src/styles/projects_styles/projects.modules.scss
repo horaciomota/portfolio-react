@@ -86,24 +86,20 @@
         display: none;
       }
     }
-
-    //Animations
-
-    .fadeIn {
-      animation: fadeInAnimation 3.5s ease-in-out forwards;
-      opacity: 0;
-    }
-    
-    @keyframes fadeInAnimation {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-    
-    
   }
   
+      //Animations
 
+      .fadeIn {
+        animation: fadeInAnimation 2.5s ease-in-out forwards;
+        opacity: 0;
+      }
+      
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
