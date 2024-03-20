@@ -12,13 +12,11 @@ export default function ProjectCard({
     <section className="project-section">
       <div className="container">
         <div className="projetos">
-
-          <div className="project-sumary">
+          <div className="project-sumary fadeIn">
             <span>{status}</span>
             <h1>{title}</h1>
             <span className="tecstack">{tecstack}</span>
             <h4>{description}</h4>
-            {/* <span>Explores</span> */}
 
             <div className="button-container">
               <a href="#" target="_blank" rel="noopener noreferrer"><Button text="Github" className="github space-between" /></a>
