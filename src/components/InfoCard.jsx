@@ -1,12 +1,16 @@
+/* eslint-disable react/no-array-index-key */
+/* eslint-disable react/prop-types */
 import React from 'react';
-import "../styles/about_styles/about.modules.scss";
+import '../styles/about_styles/about.modules.scss';
 
-function InfoCard({ title, subtitle, items, titleClassName }) {
+function InfoCard({
+  title, subtitle, items, titleClassName,
+}) {
   return (
     <div className="info-card">
       <div className="info-card-content">
         <div>
-          <h2 className={`info-card-title ${titleClassName ? titleClassName : ''}`}>{title}</h2>
+          <h2 className={`info-card-title ${titleClassName || ''}`}>{title}</h2>
           {subtitle && <p className="info-card-subtitle">{subtitle}</p>}
         </div>
         {items && (
