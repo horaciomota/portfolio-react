@@ -5,7 +5,7 @@ function GetInTouch() {
     return ( 
         <>
         <footer className="Footer-section">
-            <div className="containesr">
+            <div className="container">
                 <h2>Get In Touch</h2>
                 <p>horaciomota93@gmail.com</p>
                 <div className="list">
